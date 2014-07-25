@@ -45,3 +45,10 @@ The set of variables that were estimated from these signals are: <br/>
 Mean: Mean value<br/>
 Std: Standard deviation
 
+## Transformations performed on the original data set
+The orignal data set contains over 500 features and over 1000 raw observations. 
+The tidy data set only retained features which included mean or standard deviation.
+After removing those features, means were taken for all remaining features based on
+every possible combination of Subject and Activity; producing a data set of 180 
+obsverations of 68 features.
+
